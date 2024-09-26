@@ -568,7 +568,7 @@ stats(){
 
         # Check if the target element exists in the array string
         if [[ " $array_string " == *" $name "* ]]; then
-            bash examgraph.py $name
+            python3 examgraph.py $name
         else
             echo "Invalid Exam name."
         fi
