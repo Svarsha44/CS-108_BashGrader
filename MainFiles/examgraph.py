@@ -1,4 +1,6 @@
 import matplotlib.pyplot as plt
+import sys
+import pandas as pd
 
 def plot_exam_marks(df, exam):
     # Filter out rows with 'a' marks in the specified exam
